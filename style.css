@@ -1,0 +1,75 @@
+
+#s01 { background-color: black; grid-area: a; }
+#s02 { background-color: black; grid-area: b; }
+#s03 { background-color: black; grid-area: c; }
+#s04 { background-color: black; grid-area: d; }
+#s05 { background-color: black; grid-area: e; }
+#s06 { background-color: black; grid-area: f; }
+#s07 { background-color: black; grid-area: g; }
+#s08 { background-color: black; grid-area: h; }
+
+#x01 { background-color: purple; grid-area: x1; }
+#x02 { background-color: purple; grid-area: x2; }
+
+#s09 { background-color: black; grid-area: i; }
+#s10 { background-color: black; grid-area: j; }
+#s11 { background-color: black; grid-area: k; }
+#s12 { background-color: black; grid-area: l; }
+#s13 { background-color: black; grid-area: m; }
+#s14 { background-color: black; grid-area: n; }
+#s15 { background-color: black; grid-area: o; }
+#s16 { background-color: black; grid-area: p; }
+#s17 { background-color: black; grid-area: q; }
+#s18 { background-color: black; grid-area: r; }
+#s19 { background-color: black; grid-area: s; }
+#s20 { background-color: black; grid-area: t; }
+#s21 { background-color: black; grid-area: u; }
+#s22 { background-color: black; grid-area: v; }
+#s23 { background-color: black; grid-area: w; }
+#s24 { background-color: black; grid-area: x; }
+#s25 { background-color: black; grid-area: y; }
+#s26 { background-color: black; grid-area: z1; }
+#s27 { background-color: black; grid-area: z2; }
+
+
+
+.container
+{
+  display: grid;
+  height: 600px;
+  width: 600px;
+  grid-template-areas:
+  '  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  '
+
+  '  .   .   .   .   .   .   .   .   .   .   .   .   .   .   .   .  '
+
+  '  .   .   .   .   a   a   a   a   a   a   a   a   .   .   .   .  '
+
+  '  .   .   .   b   .   .   .   .   .   .   .   .   c   .   .   .  '
+
+  '  .   .   d   .   .   .   .   .   .   .   .   .   .   e   .   .  '
+
+  '  .   f   .   .   .   .   .   .   .   .   .   .   .   .   g   .  ' 
+
+  '  .   h   .   .   .   x1  .   .   .   .   x2  .   .   .   i   .  '
+
+  '  .   .   j   .   .   .   .   .   .   .   .   .   .   k   .   .  '
+
+  '  .   .   .   l   .   .   .   .   .   .   .   .   m   .   .   .  '
+
+  '  .   .   .   .   n   n   .   .   .   .   o   o   .   .   .   .  '
+
+  '  .   .   .   .   .   .   p   p   p   p   .   .   .   .   .   .  '
+
+  '  .   .   .   .   .   q   .   .   .   .   r   .   .   .   .   .  '
+
+  '  .   .   .   .   s   .   t   .   .   u   .   v   .   .   .   .  '
+
+  '  .   .   .   .   .   .   w   .   .   x   .   .   .   .   .   .  '
+
+  '  .   .   .   .   .   .   .   y   y   .   .   .   .   .   .   .  '
+
+  '  .   .   .   .   .   .   z1  .   .   z2  .   .   .   .   .   .  '
+  ;
+}
+
